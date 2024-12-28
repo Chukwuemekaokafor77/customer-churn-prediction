@@ -1,0 +1,28 @@
+# Core data processing and analysis
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Machine Learning
+scikit-learn>=1.2.0
+joblib>=1.2.0
+
+# Data validation and schema
+pandera>=0.17.0
+
+# API and web server
+fastapi>=0.104.0
+uvicorn>=0.24.0
+pydantic>=2.4.0
+
+# Monitoring and metrics
+prometheus-client>=0.17.0
+
+# Task scheduling
+schedule>=1.2.0
+
+# Utils
+python-dateutil>=2.8.2
+PyYAML>=6.0.1
+
+# Optional but recommended for better FastAPI performance
+httpx>=0.25.0
