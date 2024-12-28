@@ -27,6 +27,7 @@ DATA_QUALITY_SCORE = prom.Gauge('data_quality_score', 'Current data quality scor
 MODEL_PERFORMANCE = prom.Gauge('model_performance_auc', 'Current model AUC-ROC score')
 PREDICTIONS_TOTAL = prom.Counter('predictions_total', 'Total number of predictions made')
 
+
 class DataGenerator:
     def __init__(self, num_customers: int = 1000):
         self.num_customers = num_customers
